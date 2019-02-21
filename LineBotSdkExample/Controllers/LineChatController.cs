@@ -12,6 +12,7 @@ namespace LineBotSdkExample.Controllers
         [HttpPost]
         public IHttpActionResult POST()
         {
+            //123123
             //設定你的Channel Access Token
             string ChannelAccessToken = "DETqsnH04xR7Xv...(請輸入你自己的ChannelAccessToken)...1cDnyilFU=";
             isRock.LineBot.Bot bot;

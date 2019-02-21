@@ -111,6 +111,7 @@
     <Content Include="index.html" />
     <Content Include="WebApiExample.html" />
     <Content Include="WebFormExample.aspx" />
+    <None Include="Properties\PublishProfiles\LineBot221 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\testLineBotSdkExample - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\testLineBotSdkExample - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
