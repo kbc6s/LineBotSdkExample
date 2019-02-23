@@ -14,7 +14,7 @@ namespace LineBotSdkExample.Controllers
         {
             //123123
             //設定你的Channel Access Token
-            string ChannelAccessToken = "DETqsnH04xR7Xv...(請輸入你自己的ChannelAccessToken)...1cDnyilFU=";
+            string ChannelAccessToken = "9wE45mtAHkDdM3MsSXJSEn2pIO4EEj+HDtgg4KtQTRUaT7FLRRBpjBKfR2ZhxRuNrDnx/yDe1C+hTbLtYxojWGRyAbRVz2iuok8WbUiZBeOpDQWGeW4qDqcrHvWrMuE/92FDiJCZpPhId9BZXO9uYgdB04t89/1O/w1cDnyilFU=";
             isRock.LineBot.Bot bot;
             //如果有Web.Config app setting，以此優先
             if (System.Configuration.ConfigurationManager.AppSettings.AllKeys.Contains("LineChannelAccessToken"))
