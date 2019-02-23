@@ -54,7 +54,7 @@ namespace LineBotSdkExample
                 text = txbButtonTemplateText.Text,
                 title = txbButtonTemplateTitle.Text,
                 //設定圖片
-                thumbnailImageUrl = new Uri("https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/15800635_1324407647598805_917901174271992826_o.jpg?oh=2fe14b080454b33be59cdfea8245406d&oe=591D5C94"),
+                thumbnailImageUrl = new Uri("https://cdn.clickme.net/gallery/f07b18a48dce9859b3e0bc1584e656bb.jpeg"),
                 actions = actions //設定回覆動作
             };
 
