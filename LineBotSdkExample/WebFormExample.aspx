@@ -82,7 +82,7 @@
                         <label>傳送圖片訊息 : </label>
                         <br />
                         <div class="col-xs-12">
-                            <asp:TextBox ID="txb_PictureURL" CssClass="form-control" runat="server" Text="https://scontent-tpe1-1.xx.fbcdn.net/v/t31.0-8/15800635_1324407647598805_917901174271992826_o.jpg?oh=2fe14b080454b33be59cdfea8245406d&oe=591D5C94"></asp:TextBox>
+                            <asp:TextBox ID="txb_PictureURL" CssClass="form-control" runat="server" Text="https://cdn.clickme.net/gallery/f07b18a48dce9859b3e0bc1584e656bb.jpeg"></asp:TextBox>
                             <br />
                             <asp:Button ID="Button_SendPicture" CssClass="btn btn-primary" runat="server" Text="傳送圖片" OnClick="Button_SendPicture_Click" />
                         </div>

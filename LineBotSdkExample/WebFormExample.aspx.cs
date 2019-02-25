@@ -40,17 +40,17 @@ namespace LineBotSdkExample
 
             //建立actions，作為ButtonTemplate的用戶回覆行為
             var actions = new List<isRock.LineBot.TemplateActionBase>();
-            actions.Add(new isRock.LineBot.MessageActon()
+            actions.Add(new isRock.LineBot.MessageAction()
             { label = "點選這邊等同用戶直接輸入某訊息", text = "/例如這樣" });
-            actions.Add(new isRock.LineBot.UriActon()
+            actions.Add(new isRock.LineBot.UriAction()
             { label = "點這邊開啟網頁", uri = new Uri("http://www.google.com") });
-            actions.Add(new isRock.LineBot.PostbackActon()
+            actions.Add(new isRock.LineBot.PostbackAction()
             { label = "點這邊發生postack", data = "abc=aaa&def=111" });
 
             //單一Button Template Message
             var ButtonTemplate = new isRock.LineBot.ButtonsTemplate()
             {
-                altText = "替代文字(在無法顯示Button Template的時候顯示)",
+                altText = "Line表單)",
                 text = txbButtonTemplateText.Text,
                 title = txbButtonTemplateTitle.Text,
                 //設定圖片
